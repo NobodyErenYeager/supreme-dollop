@@ -1,0 +1,29 @@
+<p>Here is the <code>timeline.html</code> template with 3 shapes: triangle, square, circle that we are going to animate by creating a simple timeline:</p><pre class="prettyprint linenums">{% extends "base.html" %}
+{% load static %}
+
+{% block scripts %}
+    &lt;script src="{% static "timeline.js" %}" defer&gt;&lt;/script&gt;
+{% endblock scripts %}
+
+{% block title %}
+basic timeline
+{% endblock title %}
+
+{% block content %}
+&lt;div class="flex justify-between items-center h-[400px]"&gt;
+    &lt;!-- Triangle --&gt;
+    &lt;div class="w-0 h-0 
+        border-l-[150px] border-l-transparent
+        border-b-[200px] border-b-amber-500
+        border-r-[150px] border-r-transparent"
+        id="triangle"
+    &gt;
+    &lt;/div&gt;
+    
+    &lt;!-- Square --&gt;
+    &lt;div class="w-[200px] h-[200px] rounded-lg bg-sky-500" id="square"&gt;&lt;/div&gt;
+    
+    &lt;!-- Circle --&gt;
+    &lt;div class="w-[200px] h-[200px] bg-pink-500 rounded-full" id="circle"&gt;&lt;/div&gt;
+&lt;/div&gt;
+{% endblock content %}</pre>

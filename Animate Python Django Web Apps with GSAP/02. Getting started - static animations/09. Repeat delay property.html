@@ -1,0 +1,15 @@
+<p>To make things work smoother, you can add a repeatDelay property and set it to 1 (second). Try it out:</p><pre class="prettyprint linenums">const myAnimation = gsap.to(boxes, 
+    {
+        y: -200,
+        delay: 1,
+        stagger: {
+            each: 0.25,
+            from: 'end'
+        },
+        repeat: 3,
+        repeatDelay: 1, // &lt;- add this
+        paused: true,
+        autoAlpha: 0,
+        yoyo: true,
+    }    
+)</pre>

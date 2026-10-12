@@ -1,0 +1,25 @@
+<p>Here is the adjusted version of the basic base.html that we will use in the next lecture:</p><pre class="prettyprint linenums"> {% load static tailwind_tags %}
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+    &lt;title&gt;Django Gsap | {% block title %}{% endblock title %}&lt;/title&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+        
+        &lt;!-- font awesome --&gt;
+        &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/&gt;
+        
+        &lt;!-- gsap --&gt;
+        &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer&gt;&lt;/script&gt;
+
+        {% block scripts %}{% endblock scripts %}
+        {% tailwind_css %}
+    &lt;/head&gt;
+
+    &lt;body class="bg-slate-950"&gt;
+        &lt;div class="container px-12 mx-auto"&gt;
+            {% block content %}{% endblock content %}
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>

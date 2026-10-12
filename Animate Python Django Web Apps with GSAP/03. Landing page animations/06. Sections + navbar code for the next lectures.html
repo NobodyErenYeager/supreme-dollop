@@ -1,0 +1,95 @@
+<p>Here is the full code for the sections and navbar:</p><ul><li><p>Hero</p><pre class="prettyprint linenums">&lt;main class="bg-blue-800 flex h-screen items-center"&gt;
+    &lt;div class="container mx-auto text-center text-white relative"&gt;
+        &lt;div class="text-8xl font-bold hero-text"&gt;Hello World&lt;/div&gt;
+        &lt;div class="mt-4 text-4xl hero-text"&gt;Welcome to my Django App&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/main&gt;</pre></li><li><p>About</p><pre class="prettyprint linenums">&lt;section class="bg-slate-900 py-16" id="about"&gt;
+    &lt;div class="container mx-auto px-4"&gt;
+        &lt;div class="text-3xl font-semibold text-white" id="about-header"&gt;About Us&lt;/div&gt;
+        &lt;p class="mt-4 text-gray-500" id="about-description"&gt;
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut condimentum diam. Mauris ut feugiat risus, vel tristique dolor. Nunc sed mauris eleifend, rutrum erat ac, tempus erat. Suspendisse convallis dapibus felis at aliquam. Quisque tempor bibendum risus, eu rhoncus tellus consequat ut. Suspendisse ut arcu odio. Integer rutrum ultrices neque. Aenean rutrum lacinia ex, quis hendrerit turpis posuere eget. Praesent eget malesuada libero. Praesent rutrum ex sit amet magna eleifend rutrum. Vestibulum nisl purus, porta eget efficitur vel, scelerisque eget mauris. Mauris id libero aliquam, cursus velit ut, mattis tellus. Duis a justo ac tellus semper volutpat. Maecenas consectetur elementum pharetra. Integer varius justo et lacus ultricies consequat facilisis id purus. Aliquam eu venenatis est, euismod tristique nibh.
+
+            Nam rhoncus nibh turpis, at efficitur ligula lacinia bibendum. Proin lorem nibh, sollicitudin ut lectus at, scelerisque consequat sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales laoreet orci ac posuere. Integer vitae lorem neque. Quisque nunc quam, facilisis a euismod varius, semper sit amet dolor. Nunc a ligula turpis. Fusce vehicula massa ac neque tincidunt vestibulum. Donec gravida aliquam elit at euismod. Duis feugiat sodales pulvinar. Phasellus at ante in erat placerat rutrum et ut ante. Etiam eleifend libero nunc, id volutpat erat dictum nec. Nullam a varius nisi.
+            
+            Cras posuere est vitae ultrices ultrices. Sed eget egestas libero, vitae molestie neque. Aenean risus dolor, maximus accumsan eros ut, sagittis pharetra nulla. Fusce lobortis nisi quis pulvinar laoreet. Integer nisl sem, tristique id erat eu, iaculis feugiat erat. Sed hendrerit faucibus mi, sit amet bibendum quam malesuada in. Ut ac enim feugiat, consectetur lacus in, imperdiet tortor.
+            
+            Curabitur risus ipsum, lobortis eu erat non, aliquam consequat nunc. Donec a nunc dolor. Etiam gravida nisl ut dui rhoncus, sed convallis metus ultrices. Cras ullamcorper sem id lobortis convallis. In hac habitasse platea dictumst. Praesent aliquet ante ac justo varius, a consectetur ante varius. Praesent finibus magna a arcu consectetur, et pellentesque velit fermentum. Pellentesque ac imperdiet ante. Nunc egestas quis felis nec maximus. Phasellus et ex libero. Aliquam nec auctor ipsum. Proin ac molestie justo, volutpat pharetra tortor. Proin quis lectus semper, fermentum urna nec, dignissim purus. Curabitur placerat, lectus a egestas scelerisque, lacus ante pellentesque enim, non luctus leo odio id justo. Duis placerat condimentum lorem, at rhoncus enim tincidunt ut.
+            
+            Suspendisse commodo pulvinar dictum. Cras imperdiet sapien quis risus sagittis fermentum. Sed cursus varius tellus in porta. Ut ultricies justo vel odio efficitur condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent pretium tristique libero sit amet iaculis. Cras non metus nec sapien maximus semper id at ante. Integer egestas dui eu neque porttitor vestibulum. Sed at mi nibh.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/section&gt;</pre></li><li><p>Pricing</p><pre class="prettyprint linenums">&lt;section class="bg-slate-950 py-16" id="pricing"&gt;
+  &lt;div class="container mx-auto text-center"&gt;
+    &lt;div class="text-3xl font-semibold text-white" id="pricing-header"&gt;Pricing&lt;/div&gt;
+    &lt;p class="mt-4 text-gray-500" id="pricing-description"&gt;Choose the plan that suits you the best&lt;/p&gt;
+
+    &lt;div class="mt-12 flex flex-wrap mx-4 justify-evenly"&gt;
+
+      &lt;!-- Pricing Card 1 --&gt;
+      &lt;div class="bg-slate-500 w-[300px] p-6 rounded-lg shadow-lg text-gray-900 mt-1 card relative overflow-hidden"&gt;
+        &lt;div&gt;
+          &lt;div class="front-content absolute top-0 left-0 bg-slate-900 w-full h-full text-gray-600"&gt;
+              &lt;div class="text-xl font-semibold mt-4"&gt;For beginners&lt;/div&gt;
+              &lt;p class="mt-4"&gt;Learn the basics&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class="text-xl font-semibold"&gt;Basic plan&lt;/div&gt;
+          &lt;p class="mt-4"&gt;$9/month&lt;/p&gt;
+          &lt;ul class="mt-4"&gt;
+              &lt;li&gt;Feature 1&lt;/li&gt;
+              &lt;li&gt;Feature 2&lt;/li&gt;
+              &lt;li&gt;Feature 3&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full"&gt;Get Started&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Pricing Card 2 --&gt;
+      &lt;div class="bg-slate-500 w-[300px] p-6 rounded-lg shadow-lg text-gray-900 mt-1 card relative overflow-hidden"&gt;
+        &lt;div&gt;
+          &lt;div class="front-content absolute top-0 left-0 bg-slate-900 w-full h-full text-gray-600"&gt;
+              &lt;div class="text-xl font-semibold mt-4"&gt;For mids&lt;/div&gt;
+              &lt;p class="mt-4"&gt;Learn semi-advanced topics&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class="text-xl font-semibold"&gt;Medium plan&lt;/div&gt;
+          &lt;p class="mt-4"&gt;$19/month&lt;/p&gt;
+          &lt;ul class="mt-4"&gt;
+              &lt;li&gt;Feature 1&lt;/li&gt;
+              &lt;li&gt;Feature 2&lt;/li&gt;
+              &lt;li&gt;Feature 3&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full"&gt;Get Started&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Pricing Card 3 --&gt;
+      &lt;div class="bg-slate-500 w-[300px] p-6 rounded-lg shadow-lg text-gray-900 mt-1 card relative overflow-hidden"&gt;
+        &lt;div&gt;
+          &lt;div class="front-content absolute top-0 left-0 bg-slate-900 w-full h-full text-gray-600"&gt;
+              &lt;div class="text-xl font-semibold"&gt;For pro's&lt;/div&gt;
+              &lt;p class="mt-4"&gt;Learn advanced topics&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class="text-xl font-semibold mt-4"&gt;Premium plan&lt;/div&gt;
+          &lt;p class="mt-4"&gt;$29/month&lt;/p&gt;
+          &lt;ul class="mt-4"&gt;
+              &lt;li&gt;Feature 1&lt;/li&gt;
+              &lt;li&gt;Feature 2&lt;/li&gt;
+              &lt;li&gt;Feature 3&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full"&gt;Get Started&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</pre></li><li><p>Navbar</p><pre class="prettyprint linenums">&lt;nav class="bg-yellow-600 p-4 fixed top-0 z-10 w-full" id="navbar"&gt;
+    &lt;div class="container mx-auto"&gt;
+        &lt;div class="flex justify-between items-center"&gt;
+            &lt;a href="/" class="text-white text-2xl font-bold"&gt;Logo&lt;/a&gt;
+            &lt;div class="space-x-4"&gt;
+                &lt;button class="text-white hover:text-slate-900 duration-75" id="hero-link"&gt;Home&lt;/button&gt;
+                &lt;button class="text-white hover:text-slate-900 duration-75" id="about-link"&gt;About&lt;/button&gt;
+                &lt;button class="text-white hover:text-slate-900 duration-75" id="pricing-link"&gt;Pricing&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;</pre></li></ul>

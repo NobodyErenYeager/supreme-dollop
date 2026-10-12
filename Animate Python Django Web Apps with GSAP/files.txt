@@ -1,0 +1,53 @@
+01. Introduction
+	(1280, 720) | 01. Introduction.mp4
+	(1280, 720) | 02. Code editor + extensions.mp4
+	(1280, 720) | 04. Setup Django Project.mp4
+	(1280, 720) | 05. Create Post Model.mp4
+	(1280, 720) | 06. Configure static & media files.mp4
+	(1280, 720) | 07. Install Tailwind CSS.mp4
+	(1280, 720) | 09. Create a Django view.mp4
+	(1280, 720) | 10. Link Javascript file to the view.mp4
+02. Getting started - static animations
+	(1280, 720) | 01. Tween - gsap from.mp4
+	(1280, 720) | 02. Tween - gsap to.mp4
+	(1280, 720) | 03. Tween - gsap fromTo.mp4
+	(1280, 720) | 04. Easing.mp4
+	(1280, 720) | 05. Stagger.mp4
+	(1280, 720) | 06. Other configuration options (repeat, yoyo, onComplete).mp4
+	(1280, 720) | 08. Manage animations via action buttons - play, pause, reset, reverse.mp4
+	(1280, 720) | 10. autoAlpha property.mp4
+	(1280, 720) | 12. Create simple timeline.mp4
+	(1280, 720) | 13. Extra timeline configuration options.mp4
+	(1280, 720) | 14. More on timelines.mp4
+	(1280, 720) | 15. Animate text - example 1.mp4
+	(1280, 720) | 16. Animate text - example 2.mp4
+	(1280, 720) | 17. Animate text - example 3.mp4
+03. Landing page animations
+	(1280, 720) | 01. Create simple landing page.mp4
+	(1280, 720) | 02. Create sections - Hero [OPTIONAL].mp4
+	(1280, 720) | 03. Create sections - About [OPTIONAL].mp4
+	(1280, 720) | 04. Create sections - Pricing [OPTIONAL].mp4
+	(1280, 720) | 05. Create navbar [OPTIONAL].mp4
+	(1280, 720) | 07. Hero text reveal effect.mp4
+	(1280, 720) | 08. Animating the navbar.mp4
+	(1280, 720) | 09. Animate About section.mp4
+	(1280, 720) | 10. Animate Pricing section.mp4
+	(1280, 720) | 11. Animate pricing cards on hover.mp4
+	(1280, 720) | 13. Animate on scroll.mp4
+	(1280, 720) | 14. Add a scrub effect.mp4
+	(1280, 720) | 16. Animate on scroll to.mp4
+04. Dynamic (database object) animations
+	(1280, 720) | 01. Reorganizing files.mp4
+	(1280, 720) | 02. Create a view for the posts.mp4
+	(1280, 720) | 03. Create the post form.mp4
+	(1280, 720) | 05. Style the form.mp4
+	(1280, 720) | 07. Add modal and corresponding js file.mp4
+	(1280, 720) | 08. Animate modal.mp4
+	(1280, 720) | 09. Add confirmation message and display it in an alert.mp4
+	(1280, 720) | 10. Animate alert.mp4
+	(1280, 720) | 11. Add initial settings for the modal.mp4
+	(1280, 720) | 12. Homework.mp4
+	(1280, 720) | 13. Display post cards.mp4
+	(1280, 720) | 14. Animate posts.mp4
+05. Extra
+	(1280, 720) | 01. Intro to Tailwind CSS.mp4
